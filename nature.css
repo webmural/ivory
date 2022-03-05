@@ -1,0 +1,26 @@
+html {
+  font-size: calc(1em + 1vw);
+  line-height: 1.618;
+}
+
+body {
+  margin: 0;
+}
+
+main {
+  display: flex;
+  flex-flow: column;
+}
+
+article {
+  box-sizing: border-box;
+  max-width: min(20em, 40vh);
+  min-height: 100vh;
+  margin: auto;
+  padding: 1em;
+}
+
+:focus {
+  outline-width: thick;
+  outline-style: dashed;
+}

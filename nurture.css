@@ -1,0 +1,40 @@
+::selection {
+  background: sienna;
+  background: var(--ink);
+  color: var(--kin);
+}
+
+:root {
+  --dim: dimgray;
+  --dua: #222;
+  --sin: ivory;
+  --ink: var(--sin);
+  --kin: var(--dim);
+}
+
+.kin {
+  color: var(--ink);
+  background: var(--kin)
+}
+
+.rip {
+  background: ivory;
+  color: var(--kin);
+}
+
+@media (prefers-contrast: more) {
+  :root {
+    --kin: var(--dua);
+  }
+}
+
+:any-link {
+  color: inherit;
+  background: none;
+}
+
+:focus {
+  outline-color: sienna;
+  background: sienna;
+  color: ivory;
+}
