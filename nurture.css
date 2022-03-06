@@ -13,7 +13,6 @@
   --dua: #222;
   --sin: ivory;
   --kin: var(--dim);
-  --dip: skyblue;
 }
 
 .kin {
@@ -27,7 +26,7 @@
 }
 
 .dip {
-  background-color: springgreen;
+  background-color: deepskyblue;
   background-image: linear-gradient(turquoise, springgreen, mediumspringgreen);
   color: var(--dua);
 }
