@@ -1,20 +1,24 @@
+:any-link {
+  color: inherit;
+  background: none;
+}
+
 ::selection {
-  background: sienna;
-  background: var(--ink);
-  color: var(--kin);
+  background: springgreen;
+  color: transparent;
 }
 
 :root {
   --dim: dimgray;
   --dua: #222;
   --sin: ivory;
-  --ink: var(--sin);
   --kin: var(--dim);
+  --dip: skyblue;
 }
 
 .kin {
-  color: var(--ink);
-  background: var(--kin)
+  color: ivory;
+  background: var(--kin);
 }
 
 .rip {
@@ -22,15 +26,16 @@
   color: var(--kin);
 }
 
+.dip {
+  background-color: springgreen;
+  background-image: linear-gradient(turquoise, springgreen, mediumspringgreen);
+  color: var(--dua);
+}
+
 @media (prefers-contrast: more) {
   :root {
     --kin: var(--dua);
   }
-}
-
-:any-link {
-  color: inherit;
-  background: none;
 }
 
 :focus {
