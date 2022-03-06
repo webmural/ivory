@@ -1,0 +1,44 @@
+:any-link {
+  color: inherit;
+  background: none;
+}
+
+::selection {
+  background: springgreen;
+  color: transparent;
+}
+
+:root {
+  --dim: dimgray;
+  --dua: #222;
+  --sin: ivory;
+  --kin: var(--dim);
+}
+
+.kin {
+  color: ivory;
+  background: var(--kin);
+}
+
+.rip {
+  background: ivory;
+  color: var(--kin);
+}
+
+.dip {
+  background-color: deepskyblue;
+  background-image: linear-gradient(turquoise, springgreen, mediumspringgreen);
+  color: var(--dua);
+}
+
+@media (prefers-contrast: more) {
+  :root {
+    --kin: var(--dua);
+  }
+}
+
+:focus {
+  outline-color: sienna;
+  background: sienna;
+  color: ivory;
+}

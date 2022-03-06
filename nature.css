@@ -1,0 +1,46 @@
+html {
+  font-size: calc(1em + 1vw);
+  line-height: 1.618;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-flow: column;
+}
+
+article {
+  border-left: thick groove;
+  border-right: thick groove;
+  box-sizing: border-box;
+  max-width: min(20em, 40vh);
+  min-height: 100vh;
+  margin: auto;
+  padding: 1em;
+}
+
+.mirage {
+  border-left: thick groove;
+  border-right: thick groove;
+  box-sizing: border-box;
+  min-height: 100vh;
+  margin: 0;
+  padding: 1em;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+:any-link {
+  text-decoration: overline;
+}
+
+:focus {
+  outline-width: thick;
+  outline-style: dashed;
+}
+
+.grow {
+  font-size: 1.618em;
+}
